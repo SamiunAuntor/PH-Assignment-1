@@ -8,6 +8,11 @@
   color: #4E47FF;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -50,6 +55,8 @@
 }
 
 #stay-focused-button {
+    height: 48px;
+    width: 174px;
     margin-right: 633px;
     margin-left: 633px;
     color: #FFFFFF;
@@ -64,11 +71,54 @@
 }
 
 .header-backround {
-    width: 1440px;
+    width: auto;
     height: 698px;
     background-image: url(Hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto; 
+}
+
+.main-section {
+    margin-top: 100px;
+}
+
+.see-in-action {
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+.first-section {
+    margin-left: 141px;
+    margin-right: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-f-d1 {
+    height: 203px;
+    width: 517px;
+}
+
+.first-section-paragraph {
+    font-size: 24px;
+    color: #252432;
+}
+
+.first-section-image {
+    border-radius: 48px;
+}
+
+.llp-button {
+    margin-top: 23px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 12px 36px 12px 36px;
+    border-style: none;
+    font-size: 16px;
 }
